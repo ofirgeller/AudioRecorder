@@ -4,7 +4,7 @@ function drawBuffer( width, height, context, data ) {
     context.fillStyle = "silver";
     for(var i=0; i < width; i++){
         var min = 1.0;
-        var max = -1.0;
+        var max = -1.0; 
         for (j=0; j<step; j++) {
             var datum = data[(i*step)+j]; 
             if (datum < min)
